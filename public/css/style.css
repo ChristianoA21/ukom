@@ -1,0 +1,25 @@
+body {
+	background-image: url('../assets/BackgroundWebsite/2.jpg');
+	background-size: cover;
+}
+
+.background {
+	display: none;
+}
+.form {
+	margin-top: 232px;
+}
+@media screen and (max-width: 1178px) {
+	body {
+		background-image: none;
+	}
+	.background {
+		display: block;
+		object-fit: none;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		position: absolute;
+	}
+	
+}
